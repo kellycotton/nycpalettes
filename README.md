@@ -21,7 +21,7 @@ Development version on [GitHub](https://github.com/):
 ``` r
 # install.packages("devtools")
 devtools::install_github("kellycotton/nycpalettes")
-#> Skipping install of 'nycpalettes' from a github remote, the SHA1 (0fbdb75b) has not changed since last install.
+#> Skipping install of 'nycpalettes' from a github remote, the SHA1 (fbf82ec1) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
