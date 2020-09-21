@@ -1,0 +1,17 @@
+Package: nycpalettes
+Title: Color Palettes based on NYC
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kelly",
+           family = "Cotton",
+           role = c("aut", "cre"),
+           email = "kelmcotton@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: R package that contains color palettes based on pictures that I took around NYC.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
