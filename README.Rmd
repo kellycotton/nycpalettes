@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 Small R package that contains color palettes based on pictures that I
-(and Sharath Koorathota) took around NYC.
+(and [Sharath Koorathota](https://github.com/schko)) took around NYC.
 
 Created using the [colorfindr](https://github.com/zumbov2/colorfindr) package and heavily inspired by the [wesanderson](https://github.com/karthik/wesanderson) package.
 
@@ -41,64 +41,3 @@ ggplot(mtcars, aes(mpg, disp, color = factor(gear))) + geom_point() +
   scale_color_manual(values = nyc_palette("DUMBO"))
 ```
 
-## Palettes
-<center><img src="https://i.imgur.com/VUwnUcl.jpg" width=30% height=30%></center>
-```{r ParkBlossoms, fig.height = 1.5}
-nyc_palette("ParkBlossoms")
-```
-<center><img src="https://i.imgur.com/LQBjaUr.jpg" width=30% height=30%></center>
-```{r SunsetPlatform, fig.height = 1.5}
-nyc_palette("SunsetPlatform")
-```
-<center><img src="https://i.imgur.com/SRuJZMz.jpg" width=30% height=30%></center>
-```{r EmpireView, fig.height = 1.5}
-nyc_palette("EmpireView")
-```
-<center><img src="https://i.imgur.com/z82Wzhy.jpg" width=30% height=30%></center>
-```{r Sunset1, fig.height = 1.5}
-nyc_palette("Sunset1")
-```
-<center><img src="https://i.imgur.com/35FNiGY.jpg" width=30% height=30%></center>
-```{r Sunset2, fig.height = 1.5}
-nyc_palette("Sunset2")
-```
-<center><img src="https://i.imgur.com/oMnKZXu.jpg" width=30% height=30%></center>
-```{r Skyline1, fig.height = 1.5}
-nyc_palette("Skyline1")
-```
-<center><img src="https://i.imgur.com/29umEmg.jpg" width=30% height=30%></center>
-```{r Skyline2, fig.height = 1.5}
-nyc_palette("Skyline2")
-```
-<center><img src="https://i.imgur.com/Z2aOXdK.jpg" width=30% height=30%></center>
-```{r ShoreSkyline, fig.height = 1.5}
-nyc_palette("ShoreSkyline")
-```
-<center><img src="https://i.imgur.com/ASJXjbY.jpg" width=30% height=30%></center>
-```{r Empire, fig.height = 1.5}
-nyc_palette("Empire")
-```
-<center><img src="https://i.imgur.com/y1eDOGZ.jpg" width=30% height=30%></center>
-```{r Statue1, fig.height = 1.5}
-nyc_palette("Statue1")
-```
-<center><img src="https://i.imgur.com/lEnEXCV.jpg" width=30% height=30%></center>
-```{r Statue2, fig.height = 1.5}
-nyc_palette("Statue2")
-```
-<center><img src="https://i.imgur.com/Twiqj6W.jpg" width=30% height=30%></center>
-```{r Met, fig.height = 1.5}
-nyc_palette("Met")
-```
-<center><img src="https://i.imgur.com/wT0TF3b.jpeg" width=30% height=30%></center>
-```{r BrooklynBridge, fig.height = 1.5}
-nyc_palette("BrooklynBridge")
-```
-<center><img src="https://i.imgur.com/sfmvaJA.jpg" width=30% height=30%></center>
-```{r DUMBO, fig.height = 1.5}
-nyc_palette("DUMBO")
-```
-<center><img src="https://i.imgur.com/X3lnMKp.jpg" width=30% height=30%></center>
-```{r Yankees, fig.height = 1.5}
-nyc_palette("Yankees")
-```
