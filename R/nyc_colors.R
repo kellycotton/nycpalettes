@@ -21,13 +21,18 @@ nyc_palettes <- list(
 #'
 #' R package that contains color palettes based on pictures that I took around NYC.
 #'
-#' @param name Name of palette. Choices are:
+#' Color palettes created using the colorfindr package: https://github.com/zumbov2/colorfindr
+#'
+#' This package was heavily based on the wesanderson package: https://github.com/karthik/wesanderson
+#'
+#' @param name Name of palette. Select one:
 #' \code{ParkBlossoms}, \code{SunsetPlatform}, \code{EmpireView}, \code{Sunset1},
 #' \code{Sunset2}, \code{Skyline1}, \code{Skyline2}, \code{ShoreSkyline}, \code{Empire},
 #' \code{Statue1}, \code{Statue2}, \code{World}, \code{Met}, \code{BrooklynBridge},
 #' \code{DUMBO}, \code{Yankees}
 #'
-#' @param n Number of colors desired. Palettes range from 4 - 7 colors.
+#' @param n Number of colors desired. Palettes contain 4-7 colors.
+#'
 #' @param type Either continuous or discrete.
 #'
 #' @return A vector of colors.
@@ -35,7 +40,6 @@ nyc_palettes <- list(
 #'
 #' @examples
 #' nyc_palette("Sunset2")
-#' nyc_palette("DUMBO")
 #'
 nyc_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
