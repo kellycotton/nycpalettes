@@ -10,8 +10,7 @@ nyc_palettes <- list(
   Empire = c("#BFD4F3", "#9DB4E0", "#69686D", "#222131", "#C5BAA8"),
   Statue1 = c("#FAFEFF", "#E5EDEF", "#C7D4CD", "#91A7B4", "#706E57", "#142320"),
   Statue2 = c("#C1DFFB", "#C1D4E3", "#9FBFD4", "#87ADC4", "#69A0B4", "#325D66"),
-  World1 = c("#9AC4F5", "#6C839A", "#B1A892", "#212C1A"),
-  World2 = c("#020101", "#2D241D", "#554E42", "#9E8F82", "#F4EEE8"),
+  World = c("#9AC4F5", "#6C839A", "#B1A892", "#212C1A"),
   Met = c("#2D1F1A", "#573527", "#9D693B", "#D3AC6F", "#E0CEB9"),
   BrooklynBridge = c("#BEC9DD", "#A29D9E",  "#726E6C", "#423E3D","#1A1515"),
   DUMBO = c("#000000","#848075", "#B8C6C7", "#58382B"),
@@ -25,7 +24,7 @@ nyc_palettes <- list(
 #' @param name Name of palette. Choices are:
 #' \code{ParkBlossoms}, \code{SunsetPlatform}, \code{EmpireView}, \code{Sunset1},
 #' \code{Sunset2}, \code{Skyline1}, \code{Skyline2}, \code{ShoreSkyline}, \code{Empire},
-#' \code{Statue1}, \code{Statue2}, \code{World1}, \code{World2}, \code{Met}, \code{BrooklynBridge},
+#' \code{Statue1}, \code{Statue2}, \code{World}, \code{Met}, \code{BrooklynBridge},
 #' \code{DUMBO}, \code{Yankees}
 #'
 #' @param n Number of colors desired. Palettes range from 4 - 7 colors.
@@ -69,7 +68,7 @@ print.palette <- function(x, ...) {
   on.exit(par(old))
 
   image(1:n, 1, as.matrix(1:n), col = x,
-        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+        ylab = "", xaxt = "n", yaxt = "n", bty = "n", ylim = 1)
 
    rect(0, 0.95, n + 1, 1.05, col = rgb(1, 1, 1, 0.7), border = NA)
    text((n + 1) / 2, 1, labels = attr(x,"name"), cex = 1, family = "serif")

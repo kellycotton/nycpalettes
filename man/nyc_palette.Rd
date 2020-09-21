@@ -10,7 +10,7 @@ nyc_palette(name, n, type = c("discrete", "continuous"))
 \item{name}{Name of palette. Choices are:
 \code{ParkBlossoms}, \code{SunsetPlatform}, \code{EmpireView}, \code{Sunset1},
 \code{Sunset2}, \code{Skyline1}, \code{Skyline2}, \code{ShoreSkyline}, \code{Empire},
-\code{Statue1}, \code{Statue2}, \code{World1}, \code{World2}, \code{Met}, \code{BrooklynBridge},
+\code{Statue1}, \code{Statue2}, \code{World}, \code{Met}, \code{BrooklynBridge},
 \code{DUMBO}, \code{Yankees}}
 
 \item{n}{Number of colors desired. Palettes range from 4 - 7 colors.}
