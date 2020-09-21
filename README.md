@@ -21,7 +21,7 @@ Development version on [GitHub](https://github.com/):
 ``` r
 # install.packages("devtools")
 devtools::install_github("kellycotton/nycpalettes")
-#> Skipping install of 'nycpalettes' from a github remote, the SHA1 (fbf82ec1) has not changed since last install.
+#> Skipping install of 'nycpalettes' from a github remote, the SHA1 (c81769e7) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
@@ -45,7 +45,7 @@ ggplot(mtcars, aes(mpg, disp, color = factor(gear))) + geom_point() +
 nyc_palette("ParkBlossoms")
 ```
 
-<img src="man/figures/README-ParkBlossoms-1.png" width="100%" />
+<img src="man/figures/README-parkblossoms-1.png" width="100%" />
 <img src="https://i.imgur.com/LQBjaUr.jpg" width=30% height=30%>
 
 ``` r

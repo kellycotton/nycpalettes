@@ -42,7 +42,7 @@ ggplot(mtcars, aes(mpg, disp, color = factor(gear))) + geom_point() +
 
 ## Palettes
 <img src="https://i.imgur.com/VUwnUcl.jpg" width=30% height=30%>
-```{r ParkBlossoms, fig.height = 1.5}
+```{r parkblossoms, fig.height = 1.5}
 nyc_palette("ParkBlossoms")
 ```
 <img src="https://i.imgur.com/LQBjaUr.jpg" width=30% height=30%>
